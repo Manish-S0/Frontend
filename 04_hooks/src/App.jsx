@@ -7,6 +7,10 @@ function App() {
   const [count, setCount] = useState(0)
   const addValue=()=>{
     setCount(count+1)
+    setCount(count+1)
+    setCount(count+1)// since same work is repeated 3 times the fibre takes it as same batch and only one call is made
+    setCount((prev)=>prev+1)//setCount takes a callback func which return new value after each updation
+    setCount((prev)=>prev+1)
   }
   const subValue=()=>{
     if (count>0){
@@ -19,8 +23,8 @@ function App() {
     <>
       <h1>useState</h1>
       <h2>counter Value: {count}</h2>
-      <button onClick={addValue}>Add value</button>
-      <button onClick={subValue}>Sub value</button>
+      <button onClick={addValue}>Add value:{count}</button>
+      <button onClick={subValue}>Sub value:{count}</button>
 
     </>
   )
