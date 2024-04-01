@@ -49,7 +49,7 @@ npm run dev
 
 ## API Usage
 
-This app utilizes the [Exchange Rates API](https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2024-04-01/v1/currencies/${currency}.json) to fetch real-time exchange rates. You can obtain an API key by signing up on their website and replace it in the `REACT_APP_API_KEY` variable in the `.env` file.
+This app utilizes the [Exchange Rates API](https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2024-04-01/v1/currencies/${currency}.json) to fetch real-time exchange rates.
 
 ## Technologies Used
 
