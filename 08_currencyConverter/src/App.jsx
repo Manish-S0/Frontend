@@ -27,7 +27,7 @@ function App() {
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
-                backgroundImage: `url('https://media.istockphoto.com/id/818517624/photo/world-currency-exchange-table-graph.webp?b=1&s=170667a&w=0&k=20&c=8kqSHELNHxnYZfF5j6kP9C9YEbcRH1CERPMDPVCHX2k=')`,
+                backgroundImage: `url('https://img.freepik.com/free-vector/global-digital-money-transfer-concept-design_1017-17453.jpg?w=740&t=st=1711970872~exp=1711971472~hmac=3054f0dcefa994b5e003d4b06b1707c151938ae2aea12867936b37ca1778e5d3')`,
             }}
         >
             <div className="w-full">

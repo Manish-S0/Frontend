@@ -42,8 +42,7 @@ function App() {
         <h1 className='text-white text-center mb-2'> Password Generator</h1>
         <div className=' flex flex-col gap-4'>
           <input type="text" value={Password} className='p-2 rounded-lg bg-gray-700' placeholder='password' readOnly 
-          ref={passwordref}  />
-
+          ref={passwordref}/>
           <button className='bg-blue-500 p-2 rounded-lg text-white' onClick={copyPasswordToClipboard}
           onMouseOver={()=>{}}>copy</button>
         </div>
